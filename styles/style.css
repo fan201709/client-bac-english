@@ -773,8 +773,23 @@ article .telephoto iframe{
 article .telephoto p span{
     margin-right: 100px;
 }
+#experience1 p:firat-child {
+    font-family: 'Conv_Tungsten-Medium';
+    letter-spacing: 2px;
+    font-size: 32px;
+    color: #222222;
+}
+#experience1 p:nth-child(2) {
+    font-size: 16px;
+    color: #222222;
+}
+#experience1 p:nth-child(3) {
+        font-size: 14px;
+    color: #222222;
+    line-height: 80px;
+}
  
-
+    
 
 
 
