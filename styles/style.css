@@ -1,0 +1,830 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+* a:hover{
+    text-decoration: none;
+}
+/*头部样式开始*/
+header{
+    width:100%;
+}
+header .header{
+    width:100%;
+    position: absolute;
+    z-index: 2;
+}
+header .header .header-father{
+    width:90%;
+    margin: 0 auto;
+}
+header .header .header-father .logo{
+    display: block;
+    float: left;
+    width: 18%;
+}
+header .header .header-father .logo img{
+    width: 100%;
+}
+header .header .header-father nav{
+    background:red;
+    display: block;
+    float: left;
+    width: 82%;
+    position: relative;
+}
+header .header .header-father nav ul{
+    position: absolute;
+    right: 0;
+}
+header .header .header-father nav ul li{
+    display: block;
+    float: left;
+    padding:30px 0 0 30px;
+}
+header .header .header-father nav ul li a{
+    color:rgb(255,255,255);
+}
+header .header .header-father nav ul li:first-child a{
+    border-bottom:3px solid rgb(255,105,0);
+    padding-bottom:10px;
+}
+header .header .header-father nav ul li a:hover{
+    border-bottom:3px solid rgb(255,105,0);
+    padding-bottom:10px;
+}
+header .carousel{
+    width: 100%;
+}
+header .carousel img{
+    width: 100%;
+}
+/*头部样式结束*/
+
+/*主体样式开始*/
+article{
+    width: 100%;
+ }
+article .article{
+    width: 90%;
+    margin: 0 auto;
+    padding:15px;
+    height:1000px;
+    background: rgb(255,255,255);
+    margin-top: -50px;
+}
+article .article .upside{
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid rgb(40,40,40);
+}
+article .article .upside-p{
+    width: 100%;
+    display: block;
+    position: relative;
+    height: 120px;
+    background: rgb(255,255,255);
+    padding:15px 15px 35px 15px;
+    
+}
+article .article .upside ul li{
+     display: block;
+     float: left;
+     padding-right: 20px;
+}
+article .article .upside ul li:last-child{
+     display: block;
+     clear: both;
+}
+article .article .upside p{
+    font-size: 24px;
+    font-family:  'Conv_Tungsten-Medium';
+    color: rgb(140, 140, 140);
+    position: absolute;
+    right: 15px;
+}
+article .article .upside p span{
+    font-size: 39px;    
+    color: rgb(40, 40, 40);
+}
+article .article .teacher{
+    width: 100%;
+    height: 800px;
+}
+article .article .teacher .teacherup{
+    padding-top: 50px;
+}
+article .article .teacher .teacherup .teacherupword{
+    width: 60%;
+    display: block;
+    float: left;    
+    padding-right: 40px;
+}
+article .article .teacher .teacherup .teacherupword p:nth-child(1){
+    font-size: 25px;
+    color: rgb(40, 40, 40);;
+    font-family: 'Conv_Tungsten-Medium';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+article .article .teacher .teacherup .teacherupword p:nth-child(1) span{
+    color: rgb(255, 0, 0);
+}
+article .article .teacher .teacherup .teacherupword p:nth-child(2){
+    font-size: 18px;
+    font-weight: bold;
+}
+article .article .teacher .teacherup .teacherupimg{
+    width: 40%;
+    display: block;
+    float: left;
+    background-image: url("../images/introduce-img-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 150px;
+    position: relative;
+}
+article .article .teacher .teacherup .teacherupimg p{
+    font-weight: bold;
+    font-size: 36px;
+    color: rgb(0,0,0);
+    font-family: 'Conv_Tungsten-Medium';
+    letter-spacing: 2px;
+    position: absolute;
+    right: 30px;
+    top:-25px;
+}
+article .article .teacher .teacherdown{
+    width: 100%;
+    height: 50px;
+}
+article .article .teacher .teacherdown .up .up-left{
+    display: block;
+    float: left;
+    font-size: 39px;
+    cursor: pointer;
+    height: 52px;
+    width: 70%;
+}
+article .article .teacher .teacherdown .up .up-left a:nth-child(1){
+    color:rgb(40,40,40);
+}
+article .article .teacher .teacherdown .up .up-left a:nth-child(2){
+    color:rgb(130, 130, 130);
+}
+article .article .teacher .teacherdown .up .up-right{
+    display: block;
+    float: left;
+    font-size: 20px;
+    cursor: pointer;
+    height: 52px;
+    width: 30%;
+}
+article .article .teacher .teacherdown .up .up-right p:nth-child(1){
+    background: rgb(255,50,0);
+    width: 75%;
+    height: 2px;
+    display: block;
+    float: left;
+    margin-top: 13px;
+    margin-right: 5px;
+}
+article .article .teacher .teacherdown .up .up-right a{
+    color: rgb(40,40,40);
+}
+article .article .teacher .teacherdown .down{
+    width:100%;
+    height: 600px;
+}
+article .article .teacher .teacherdown .down .down-left .photo{
+    display: block;
+    float: left;
+    padding:5px;
+}
+article .article .teacher .teacherdown .down .down-left{
+    width:60%;
+    display: block;
+    float: left;
+}
+article .article .teacher .teacherdown .down .down-left .resume{
+    display: block;
+    float: left;
+    padding-top: 150px;
+    padding-left: 50px;
+}
+article .article .teacher .teacherdown .down .down-left .resume p:nth-child(1){
+    font-size: 32px;
+    letter-spacing: 2px;
+    font-family: 'Conv_Tungsten-Medium';
+    text-transform: uppercase;
+}
+article .article .teacher .teacherdown .down .down-left .resume p:nth-child(1) span{
+    color: rgb(255,50,0);
+}
+article .article .teacher .teacherdown .down .down-left .resume p:nth-child(2){
+    font-size: 15px;
+    margin-top: 12px;
+}
+article .article .teacher .teacherdown .down .down-left .resume p:nth-child(3){
+    font-size: 26px;
+    margin-top: 6px;
+}
+article .article .teacher .teacherdown .down .down-right{
+    width:40%;
+    display: block;
+    float: left;
+}
+article .article .teacher .teacherdown .down .down-right img{
+    padding-top: 150px;
+    padding-left: 50px;
+}
+article .article .teacher .teacherdown .down .down-right .line{
+    padding-top: 150px;
+    padding-left: 50px;
+}
+article .article .teacher .teacherdown .down .down-right .line a{
+    color: rgb(40,40,40);
+}
+article .article .teacher .teacherdown .down .down-right .line p:nth-child(2){
+    display: block;
+    float: left;
+    font-size: 20px;
+    margin-left: 5px;
+}
+article .article .teacher .teacherdown .down .down-right .line p:nth-child(1){
+    width:300px;
+    height: 1px;
+    background:rgb(255,50,0);
+    display: block;
+    float: left;
+    margin-top: 15px;
+}
+article .strive{
+    width: 100%;
+    background-image: url("../images/content2-bg.png");
+    background-size: 40%;
+    height: 600px;
+    background-repeat: no-repeat;
+    margin: 20px 0;
+    padding:20px;
+    background-origin:padding-box;
+}
+article .strive .strive-all{
+    width:80%;
+    margin: 0 auto;
+}
+article .strive .strive-all .strive-left{
+    display: block;
+    float: left;
+    width:65%;
+}
+article .strive .strive-all .strive-left p:nth-child(1){
+    font-size: 13px;
+}
+article .strive .strive-all .strive-left p:nth-child(2){
+    font-size: 32px;
+    font-weight: bold;
+}
+article .strive .strive-all .strive-left p:nth-child(2) span{
+    color: red;
+}
+article .strive .strive-all .strive-left p:nth-child(3){
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Conv_Tungsten-Medium';
+    letter-spacing: -2px;
+}
+article .strive .strive-all .strive-left .image{
+    width: 100%;
+    height: 150px;
+}
+article .strive .strive-all .strive-left .image .image-null{
+    width: 60%;
+    height: 150px;
+    display: block;
+    float: left;
+}
+article .strive .strive-all .strive-left img{
+    width: 150px;
+}
+article .strive .strive-all .strive-right{
+    width: 35%;
+    display: block;
+    float: left;
+}
+article .strive .strive-all .strive-right img{
+    height: 580px;
+}
+#one{
+    color: rgb(130, 130, 130);
+}
+#two{
+    color: rgb(40,40,40);
+}
+#logo{
+    margin-top: 20px;
+}
+#front{
+    border:none;
+}
+#home{
+    border-bottom:3px solid rgb(255,105,0);
+    padding-bottom:10px;
+}
+#back{
+    background-image: url("../images/circle-grey-ry.png");
+    background-position: -30% 0%;
+    background-size: 40%;
+}
+
+/*主体样式结束*/
+
+/*尾部样式开始*/
+footer{
+    width: 100%;
+    height: 300px;
+    background: rgb(40,40,40);
+    color: rgb(130, 130, 130);
+}
+footer .black{
+    display: block;
+    width: 90%;
+    margin:0 auto;
+}
+footer .black .bog{
+    width: 35%;
+    display: block;
+    float: left;
+}
+footer .black .bog img{
+    padding:25px 0 0 0;
+}
+footer .black .bog p{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-family: 'Conv_Tungsten-Medium';
+    padding:25px 0;
+}
+footer .black .out{
+    width: 65%;
+    display: block;
+    float: left;
+}
+footer .black .out .out-line .nav{
+    border-bottom: 1px solid rgb(80,80,80);
+}
+footer .black .out .out-line .nav ul{
+    padding: 15px;    
+}
+footer .black .out .out-line .nav ul li{
+    display: block;
+    float:left;
+    padding:15px;
+}
+footer .black .out .out-line .nav ul li a{
+    color: rgb(130, 130, 130);
+    font-size: 1.1em;
+}
+footer .black .out .address{
+    width: 100%;
+    height: 200px;
+    display: block;
+    margin: 15px 0;
+}
+footer .black .out .address div:first-child{
+    width: 75%;
+    height: 200px;
+    display: block;
+    float: left;
+}
+footer .black .out .address div::last-child{
+    width: 25%;
+    float: left;
+    height: 200px;
+    display: block;
+}
+/*尾部样式结束*/
+/*第二页主体部分样式开始*/
+article{
+    width: 100%;
+}
+article .article-we{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+article .article-we .us-left{
+    border-bottom: 1px solid rgb(130, 130, 130);
+}
+article .article-we .us-left p:nth-child(1){
+    font-size: 32px;
+    font-family: 'Conv_Tungsten-Medium';
+    letter-spacing: 2px;
+}
+article .article-we .us-left p:nth-child(1) span{
+    color: rgb(255,50,0);
+}
+article .article-we .us-left p:nth-child(2){
+    font-size: 18px;
+    color: rgb(130, 130, 130);
+}
+article .article-we .us-right ul li{
+    font-size: 13px;
+    display: block;
+    float: left;
+    width: 120px;
+    height: 26px;
+    line-height: 26px;
+    margin-right: 15px;
+    text-align: center;
+}
+article .article-we .us-right ul li a{
+    color: rgb(130,130,130);
+}
+#wehome{
+    background: rgb(0,0,0);
+}
+#wehome p{
+    float: left;
+    width: 10px;
+    height: 2px;
+    background: rgb(255,50,0);
+    margin-top: 12px;
+    margin-left: 8px;
+}
+#wehome a{
+    color: rgb(255,255,255);
+}
+#bkc{
+     /*id="bkc"*/
+    background:url("../images/circle-grey-ry.png") no-repeat;
+    background-position: top center;
+}
+article .article-we .weintroduce-left{
+    padding-top: 50px;
+}
+article .article-we .weintroduce-left p:nth-child(1){
+    font-size: 20px;
+    color: #222222;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+article .article-we .weintroduce-left p:nth-child(2){
+    font-size: 18px;
+    color: #888888;
+    font-family: 'Conv_Tungsten-Medium';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+}
+article .article-we .weintroduce-left p:nth-child(3),
+article .article-we .weintroduce-left p:nth-child(4){   
+    font-size: 14px;
+    color: #444444;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+article .article-we .weintroduce-right{ 
+     padding:15px;
+}
+article .article-we .weintroduce-right img{ 
+     vertical-align:bottom;
+     padding:15px;
+     margin-left: 20px;
+}
+article .article-we .we3{ 
+    margin: 25px 0;
+}
+article .article-we .we3 h4{ 
+    font-weight: bold;
+    color: #444444;
+}
+article .article-we .we3 h5{ 
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+article .article-we .contact01{
+    margin: 50px auto;
+}
+.section{
+    width: 100%;
+}
+.section .title{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    padding:15px;
+}
+.section .contact4-1{
+    width: 80%;
+    margin: 20px auto;
+}
+.section .contact4-1 figure{
+    width: 150px;
+    margin: 40px auto;
+    padding:0 20px;
+    font-size: 18px;
+}
+.section .contact4-1 figure figcaption{
+    width: 150px;
+    text-align: center;
+    padding:10px;
+}
+.section .contact4-2{
+    background: url("../images/bz_speak.png");
+    padding:80px;
+}
+.section .contact4-2 td{
+    vertical-align:top;
+}
+.section .contact4-2 tr td:first-child{
+    width: 70px;
+}
+.section .contact4-2 td img{
+    margin: -7px -6px 0 3px;
+}
+.section .contact4-2 tr td:last-child{
+    line-height: 2;
+    padding-left: 50px;
+    padding-bottom: 42px;
+    border-left: 1px dashed #bfc1c7;
+    box-sizing: border-box; 
+}
+.section .contact4-3{
+    background: url("../images/bz_hl.png");
+}
+.section .contact4-3 .left{
+    width:80%;
+    margin: 0 auto;
+    padding:140px 0;
+}
+.section .contact4-4{
+    background: url("../images/bz_0.png");
+    background-position: top center;
+    padding-top: 50px;
+}
+.section .contact4-4 p:nth-child(2){
+    width: 65%;
+    margin:0 auto;
+    text-align: center;
+}
+.section .contact4-4 .yuan{
+    width: 90%;
+    margin:0 auto;
+    vertical-align:bottom;
+    padding:50px;
+}
+.section .contact4-4 .yuan div:nth-child(1){
+    text-align: right;
+}
+.section .contact4-4 .yuan div:nth-child(2){
+    text-align: center;
+}
+.section .contact4-5{
+    background: url("../images/bz_G.png");
+    background-position: top center;
+    padding-top: 50px;
+}
+.section .contact4-5 p:nth-child(2){
+    width: 65%;
+    margin:0 auto;
+    text-align: center;
+}
+.section .contact4-5 p:nth-child(3){
+    width: 55%;
+    margin:0 auto;
+    text-align: center;
+}
+.section .contact4-5 p:nth-child(4){
+    width: 150px;
+    height: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgb(255,255,255);
+    margin:20px auto;
+    text-align: center;
+    background:rgb(255,50,0);
+    border-radius: 20px;
+}
+.section .contact4-5 .photo{
+    width: 80%;
+    margin:15px auto;
+}
+.section .contact4-5 .photo p{
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+}
+/*第二页主体部分样式结束*/ 
+/*第三页主体部分样式开始*/
+article .article-education{
+    width: 100%;
+    background:url("../images/education_sys.png");
+    background-position: top center;
+    margin-top: -5px;
+}
+article .article-education .education{
+    width: 90%;
+    margin: 0 auto;
+    padding: 60px 0 700px 0;
+}
+section .section-education{
+    width: 90%;
+    margin: 0 auto;
+    padding:50px 0;
+}
+section .section-education h3{
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px 0;
+} 
+section .section-education thead tr{
+    background: rgb(100,100,100);
+    color:rgb(255,255,255);
+    text-align: center;
+}
+section .section-education thead th{
+    text-align: center;
+}
+section .section-education tbody th{
+    font-size: 1.2em;
+    font-weight: bold;
+    padding:15px;
+    text-align: center;
+}
+section .section-education tbody tr:nth-child(2n){
+    background: #fafafa;
+}
+section .section-education tbody td{
+    padding:15px;
+    width: 30%;
+}
+section .section-education li{
+    list-style-type: disc;
+}
+/*第三页主体部分样式结束*/ 
+/*第四页主体部分样式开始*/ 
+article .experience{
+    width: 90%;
+    margin: 0 auto;
+    padding:30px 0;
+}
+article .experience h3{
+    text-align: center;
+}
+article .experience p{
+    text-align: center;
+}
+article .experience tr td{
+    vertical-align: top;
+}
+article .experience tr td a{
+    color: rgb(0,0,0);
+}
+article .experience tr td:hover{
+    background: rgba(250,250,250,1);
+    
+}
+article .experience tr td:hover img{
+    opacity: 0.7;
+    
+}
+article .experience tr td p:first-child{
+    padding: 30px 0 0px;
+    font-size: 20px;
+    color: #222222;
+    font-family: 'Conv_Tungsten-Medium';
+    letter-spacing: 2px;
+    font-weight: bold;
+    display: block;
+}
+article .experience tr td p:nth-child(2),
+article .experience tr td p:nth-child(3){
+    font-weight: bold;
+}
+article .experience2{
+    margin: 25px auto;    
+}
+article .experience2 div figure{
+    background:rgba(250,250,250,1);
+    margin: 5px auto;
+    padding:18px;    
+}
+article .experience2 div figure img{
+    margin: 8px auto;    
+}
+article .experience3 h3,
+article .experience3 p{
+    text-align: center;  
+    margin: 15px auto;  
+}
+article .experience3 a{
+    text-align: center; 
+    padding:10px 18px;
+    background: rgb(250,250,250); 
+    margin: 15px 10px;  
+    color: rgb(0,0,0); 
+}
+#bkblack{
+    color: rgb(250,250,250);
+    background:  rgb(0,0,0); 
+}
+article .experience3 img{
+     margin: 15px auto;
+}
+article .news{
+    padding:15px 0;
+    margin: 25px auto;
+}
+article .news img{
+    width: 300px;
+    height: 250px;
+}
+article .news a .day{
+    color: rgb(150,150,150);
+}
+article .news a .day1{
+    color: rgb(0,0,0);
+    font-size: 1.1em;
+}
+article .news a .day2{
+    color: rgb(100,100,100);
+}
+article .news a:hover img{
+    opacity: 0.7;
+}
+article .news a:hover .day1{
+    color:rgb(255, 0, 0);
+}
+
+
+/*第四页主体部分样式结束*/ 
+
+
+article .telephoto{
+   margin: 50px auto;
+}
+article .telephoto iframe{
+    width:100%;
+    margin-bottom: 50px;
+}
+article .telephoto p span{
+    margin-right: 100px;
+}
+ 
+
+
+
+
+ 
+
+
+
+  
+ 
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
