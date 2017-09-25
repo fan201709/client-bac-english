@@ -46,7 +46,7 @@ header .header .header-father nav ul li{
 header .header .header-father nav ul li a{
     color:rgb(255,255,255);
 }
-header .header .header-father nav ul li:first-child a{
+header .header .header-father nav ul li .home{
     border-bottom:3px solid rgb(255,105,0);
     padding-bottom:10px;
 }
@@ -70,7 +70,6 @@ article .article{
     width: 90%;
     margin: 0 auto;
     padding:15px;
-    height:1000px;
     background: rgb(255,255,255);
     margin-top: -50px;
 }
@@ -83,7 +82,6 @@ article .article .upside-p{
     width: 100%;
     display: block;
     position: relative;
-    height: 120px;
     background: rgb(255,255,255);
     padding:15px 15px 35px 15px;
     
@@ -110,7 +108,6 @@ article .article .upside p span{
 }
 article .article .teacher{
     width: 100%;
-    height: 800px;
 }
 article .article .teacher .teacherup{
     padding-top: 50px;
@@ -157,7 +154,7 @@ article .article .teacher .teacherup .teacherupimg p{
 }
 article .article .teacher .teacherdown{
     width: 100%;
-    height: 50px;
+    clear:both;
 }
 article .article .teacher .teacherdown .up .up-left{
     display: block;
@@ -264,7 +261,6 @@ article .strive{
     width: 100%;
     background-image: url("../images/content2-bg.png");
     background-size: 40%;
-    height: 600px;
     background-repeat: no-repeat;
     margin: 20px 0;
     padding:20px;
@@ -316,28 +312,20 @@ article .strive .strive-all .strive-right{
 article .strive .strive-all .strive-right img{
     height: 580px;
 }
-#one{
+.one{
     color: rgb(130, 130, 130);
 }
-#two{
+.two{
     color: rgb(40,40,40);
 }
-#logo{
+.logo-main{
     margin-top: 20px;
 }
-#front{
-    border:none;
-}
-#home{
-    border-bottom:3px solid rgb(255,105,0);
-    padding-bottom:10px;
-}
-#back{
+.back{
     background-image: url("../images/circle-grey-ry.png");
     background-position: -30% 0%;
     background-size: 40%;
 }
-
 /*主体样式结束*/
 
 /*尾部样式开始*/
@@ -442,10 +430,10 @@ article .article-we .us-right ul li{
 article .article-we .us-right ul li a{
     color: rgb(130,130,130);
 }
-#wehome{
+.wehome{
     background: rgb(0,0,0);
 }
-#wehome p{
+.wehome p{
     float: left;
     width: 10px;
     height: 2px;
@@ -453,10 +441,10 @@ article .article-we .us-right ul li a{
     margin-top: 12px;
     margin-left: 8px;
 }
-#wehome a{
+.wehome a{
     color: rgb(255,255,255);
 }
-#bkc{
+.bkc{
      /*id="bkc"*/
     background:url("../images/circle-grey-ry.png") no-repeat;
     background-position: top center;
@@ -727,7 +715,7 @@ article .experience3 a{
     margin: 15px 10px;  
     color: rgb(0,0,0); 
 }
-#bkblack{
+.experience3 p .bkblack{
     color: rgb(250,250,250);
     background:  rgb(0,0,0); 
 }
@@ -758,11 +746,7 @@ article .news a:hover img{
 article .news a:hover .day1{
     color:rgb(255, 0, 0);
 }
-
-
 /*第四页主体部分样式结束*/ 
-
-
 article .telephoto{
    margin: 50px auto;
 }
@@ -773,24 +757,26 @@ article .telephoto iframe{
 article .telephoto p span{
     margin-right: 100px;
 }
-#experience{
+.experience{
     padding: 50px;
 }
-#experience p:firat-child(1) {
+.experience p:firat-child(1) {
     font-family: 'Conv_Tungsten-Medium';
     letter-spacing: 2px;
     font-size: 32px;
     color: #222222;
 }
-#experience p:nth-child(2) {
+.experience p:nth-child(2) {
     font-size: 16px;
     color: #222222;
 }
-#experience p:nth-child(3) {
+.experience p:nth-child(3) {
     font-size: 14px;
     color: #222222;
     line-height: 80px;
 }
+
+
  
     
 
