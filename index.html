@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>百可</title>
-    <link href="https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles/style.css">
-    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdn.bootcss.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" rel="stylesheet">
+    
+    <script src="https://cdn.bootcss.com/jquery/1.12.2/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="javascripts/main.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
     <link rel="icon" href="images/index.ico"/>
 </head>
 <body> 
@@ -65,56 +67,98 @@
                         <p>01.</p>
                     </div>
                 </div>
-                <div class="teacherdown">
-                    <div class="up">
-                        <div class="up-left">
-                            <a href="index.html">01.</a>
-                            <a href="index-1.html">02.</a>
-                        </div>
-                        <div class="up-right">
-                            <a href=""><p></p><p>MORE+</p></a>
-                        </div>
+                <div class="clearfix">
+
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs wake" role="tablist">
+                        <li role="presentation" class="active"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">01.</a></li>
+                        <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">02.</a></li>
+                    </ul>
+                    <div class="up-right">
+                        <a href=""><p></p><p>MORE+</p></a>
                     </div>
-                    <div class="down">
-                        <div class="down-left">
-                            <div class="photo"><img src="images/teacher1-big.png" alt=""></div>
-                            <div class="resume">
-                                <p>THE MAIN PUSH <br> <span>TEACHER</span> </p>
-                                <p> 朱晶晶</p>
-                                <p>Linda Zhu</p>
-                                <p>雅思/托福 写作</p>
-                                <p>英国剑桥雅思官方培训师 <br>美国ETS托福中心培训师</p>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="profile">
+                            <div class="teacherdown">
+                                <!--<div class="up">
+                                    <div class="up-left">
+                                        <a href="index.html">01.</a>
+                                        <a href="index-1.html">02.</a>
+                                    </div>
+                                    <div class="up-right">
+                                        <a href=""><p></p><p>MORE+</p></a>
+                                    </div>
+                                </div>-->
+                                <div class="down">
+                                    <div class="down-left">
+                                        <div class="photo"><img src="images/teacher1-big.png" alt=""></div>
+                                        <div class="resume">
+                                            <p>THE MAIN PUSH <br> <span>TEACHER</span> </p>
+                                            <p> 朱晶晶</p>
+                                            <p>Linda Zhu</p>
+                                            <p>雅思/托福 写作</p>
+                                            <p>英国剑桥雅思官方培训师 <br>美国ETS托福中心培训师</p>
+                                        </div>
+                                    </div>
+                                    <div class="down-right">
+                                        <img src="images/circle1.png" alt="">
+                                        <div class="line"><a href=""><p></p><p>MORE</p></a></div>
+                                    </div>
+                                </div>
+                                
                             </div>
                         </div>
-                        <div class="down-right">
-                            <img src="images/circle1.png" alt="">
-                            <div class="line"><a href=""><p></p><p>MORE</p></a></div>
+                        <div role="tabpanel" class="tab-pane" id="messages">
+                            <div class="teacherdown">
+                                <div class="down">
+                                        <div class="down-left">
+                                            <div class="photo"><img src="images/teacher-big1.png" alt=""></div>
+                                            <div class="resume">
+                                                <p>THE MAIN PUSH <br> <span>TEACHER</span> </p>
+                                                <p> 赛文伟</p>
+                                                <p>Daisy Sai</p>
+                                                <p>雅思/托福 口语</p>
+                                                <p>毕业于世界名校奥塔哥大学 <br>
+                                                英国剑桥雅思官方培训师 <br>
+                                                雅思口语教学经验5年</p>
+                                            </div>
+                                        </div>
+                                        <div class="down-right">
+                                            <img src="images/circle1.png" alt="">
+                                            <div class="line"><a href=""><p></p><p>MORE</p></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+
                         </div>
                     </div>
-                    
                 </div>
-            </div>
-        </div>
-        <div class="strive clearfix">
-            <div class="strive-all">
-                <div class="strive-left">
-                    <p>
-                    可喜可贺的成绩。<br>
-                    在百可，英语变得更有趣！
-                    </p>
-                    <p>百分之百<span>的努力!</span></p>
-                    <p>
-                    WE HELP YOU ACHIEVE YOUR TARGETS THROUGH ONE <br>
-                    HUNDRED PERCENT COMMITMENT. <br><br>
-                    COME LEARN HOW INTERESTING ENGLISH CAN TRULY BE!
-                    </p> 
-                    <div class="image">
-                        <div class="image-null"></div>
-                        <img src="images/circle-cnt2.png" alt="">
+                <div class="strive clearfix">
+                    <div class="strive-all">
+                        <div class="strive-left">
+                            <p>
+                            可喜可贺的成绩。<br>
+                            在百可，英语变得更有趣！
+                            </p>
+                            <p>百分之百<span>的努力!</span></p>
+                            <p>
+                            WE HELP YOU ACHIEVE YOUR TARGETS THROUGH ONE <br>
+                            HUNDRED PERCENT COMMITMENT. <br><br>
+                            COME LEARN HOW INTERESTING ENGLISH CAN TRULY BE!
+                            </p> 
+                            <div class="image">
+                                <div class="image-null"></div>
+                                <img src="images/circle-cnt2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="strive-right">
+                            <div class="img"><img src="images/img-cnt2.png" alt=""></div>
+                        </div>
                     </div>
-                </div>
-                <div class="strive-right">
-                    <div class="img"><img src="images/img-cnt2.png" alt=""></div>
                 </div>
             </div>
         </div>

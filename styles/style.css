@@ -152,43 +152,13 @@ article .article .teacher .teacherup .teacherupimg p{
     right: 30px;
     top:-25px;
 }
-article .article .teacher .teacherdown{
-    width: 100%;
-    clear:both;
+article .article .teacher .wake{
+    font-size: 30px;
+    border:none;
 }
-article .article .teacher .teacherdown .up .up-left{
-    display: block;
-    float: left;
-    font-size: 39px;
-    cursor: pointer;
-    height: 52px;
-    width: 70%;
-}
-article .article .teacher .teacherdown .up .up-left a:nth-child(1){
-    color:rgb(40,40,40);
-}
-article .article .teacher .teacherdown .up .up-left a:nth-child(2){
-    color:rgb(130, 130, 130);
-}
-article .article .teacher .teacherdown .up .up-right{
-    display: block;
-    float: left;
-    font-size: 20px;
-    cursor: pointer;
-    height: 52px;
-    width: 30%;
-}
-article .article .teacher .teacherdown .up .up-right p:nth-child(1){
-    background: rgb(255,50,0);
-    width: 75%;
-    height: 2px;
-    display: block;
-    float: left;
-    margin-top: 13px;
-    margin-right: 5px;
-}
-article .article .teacher .teacherdown .up .up-right a{
-    color: rgb(40,40,40);
+article .article .teacher .wake ul li a{
+    border:none;
+    color:rgb(100,100,100);
 }
 article .article .teacher .teacherdown .down{
     width:100%;
